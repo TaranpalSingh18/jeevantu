@@ -6,7 +6,7 @@ const User = require('../models/User');
 require('dotenv').config({path: '../.env'});
 const router = express.Router();
 
-router.pos
+
 
 // Cashier Signup
 router.post('/cashier/signup', async (req, res) => {
